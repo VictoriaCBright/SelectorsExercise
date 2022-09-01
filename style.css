@@ -1,0 +1,81 @@
+body {
+    background-color: #ced4d8;
+}
+
+h1 {
+    color: #ac6ac7;
+}
+
+h2 {
+    color: rgb(255, 165, 0);
+}
+
+li {
+    color: blue;
+}
+
+p {
+    background-color: gold;
+}
+
+input[type="text"] {
+    border: 5px dotted pink;
+}
+
+input[type="email"] {
+    border: 5px dotted pink;
+    background-color: #808080;
+}
+
+.first{
+    background-color: #fff;
+}
+
+#important {
+    border: 3px dashed #000fff;
+}
+
+div p {
+    font-size: 30px;
+}
+
+div:nth-of-type(3) p {
+    background-color: hotpink;
+}
+/* COME BACK TO THIS ____ */
+/* 12. Give the 2nd p element inside the 3rd div a 7px solid rgb(255, 255, 255) border */
+:nth-child(5) :nth-child(3) {
+    border: 7px solid rgb(255, 255, 255);
+}
+/* _______ */
+
+div p em {
+    color: seashell;
+    font-size: 25px;
+}
+
+/* BONUS */
+/* 1 */
+:checked {
+    margin-left: 40px;
+}
+/* 2 */
+label {
+    text-transform: lowercase;
+}
+
+/* 3 */
+#important::first-letter {
+    color: lime;
+    font-size: 90px;
+}
+
+/* 4 */
+h1:hover {
+    color: navy;
+}
+
+/* 5 */
+a:visited {
+    color: silver;
+}
